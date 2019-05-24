@@ -1,3 +1,19 @@
+## **Role Description**
+
+You have learned all about the foundations of the Web over the past eight weeks. Now you will build a static landing page that links to a your group's application.
+
+## **The `Web Foundations` Unit explored the following topics:**
+
+- User Interfaces 1 - 3
+- Git for Web Development
+- Responsive Design 1 - 2
+- Pre-Processors 1 - 2
+- JavaScript Fundamentals 1 - 4
+- DOM 1 - 2
+- Components 1 - 2
+
+For your project this week, you will demonstrate proficiency by working with a group of students cross section to deliver a minimum viable product (MVP) over the course of the week.
+
 ## **Your primary role User Interface Developer:**
 
 - [ ]  You will build a multi-page marketing website that matches the theme chosen by your group and provides the user with details about the product your team has selected to build.
