@@ -35,7 +35,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
     line-height: 1;
-    /* margin: 0 auto; */
+    background: #e3e3e3;
 }
 ol, ul {
 	list-style: none;
@@ -61,15 +61,14 @@ table {
 header {
     display: flex;
     flex-direction: column;
-
+    border-radius: 55px;
     background-color: #6d748c;
     height: 9rem;
     width: auto;
     justify-content: space-evenly;
     align-items: center;
     padding: 7px;
-
-    border: 3px dashed springgreen;    
+    border: 7px dotted #1f1f44;
 }
 
 
@@ -85,7 +84,6 @@ h1 {
     color: #e3e3e3;
     font-size: 4rem;
 
-    border: 3px dotted cadetblue;
 }
 
 
@@ -97,7 +95,7 @@ nav {
     width: 40%;
     height: auto;
 
-    border: 2px double #1f1f44;
+
 
 }
 
@@ -115,7 +113,8 @@ nav a {
    display: flex;
    flex-wrap: wrap;
    flex-direction: column;
-
+   background: #6d748c;
+   border-radius: 75px;
    margin: 3%;
    padding: 10px;
    justify-content: center;
@@ -123,31 +122,39 @@ nav a {
    width: 90%;;
     
 
-   border: 3px solid plum;
+   border: 7px dotted lightseagreen;
 }
 
 
 .salmon-img {
 
-    border-radius: 20px;
+    border-radius: 99px;
     height: 15rem;
     width: 45%;
     padding: 5px;
 
-    border: 4px dotted lightseagreen
 }
 
 .salmon-text {
-    color: #6d748c;
+    color: #e3e3e3;
 
-    width: 29%;
-    height: auto;
-
-    justify-content: space-around;
+    width: 45%;
+    height: 15rem;
+    justify-content: space-between;
     text-align: justify;
-
+    text-align-last: center;
     padding: 5px;
     font-family: 'Nunito', sans-serif;
 
-    border: 2px dashed darkturquoise;
+}
+
+.salmon-text h2 {
+    text-align: justify;
+    font-family: 'Mitr', sans-serif;
+    color: #a00000;
+    padding: 5%;
+    font-size: 1.3rem;    
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #1f1f44;
 }
