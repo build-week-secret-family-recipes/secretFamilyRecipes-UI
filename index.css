@@ -120,10 +120,9 @@ nav a {
    padding: 10px;
    justify-content: center;
    height: 17rem;
-   width: 90%;;
+   width: 90%;
     
 
-   border: 7px dotted lightseagreen;
 }
 
 
@@ -162,49 +161,167 @@ nav a {
 
 
 .blank {
- border-top: 3px double #1f1f44;
- border-bottom: 3px double #1f1f44;
+ border-top: 3px double #6d748c;
+ border-bottom: 3px double #6d748c;
 }
 
 
 
 
 .mid {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    background: #6d748c;
-    border-radius: 75px;
-    margin: 3%;
-    padding: 10px;
-
-    justify-content: center;
-
-    height: 25rem;
-    width: 90%;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   background: #6d748c;
+   border-radius: 75px;
+   margin: 3%;
+   padding: 15px;
+   height: 31rem;
+   width: 90%;
      
  
-    border: 7px dashed deeppink;
 }
 
 .veg {
-    height: 20%;
-    width: 20%;
+    height: 97%;
+    width: 50%;
+    padding: 0 auto;
 
-    border: 3px dotted lightgreen;
+    border-right: 5px dotted #1f1f44;
 }
 
 .veggies-img {
-    
+
+    border-radius: 99px;
+    height: 15rem;
+    width: 97%;
+    padding: 5px;
+
+}
+.veggies-text {
+    color: #e3e3e3;
+
+    width: 90%;
+    height: 15rem;
+    justify-content: space-between;
+    text-align: center;
+    text-align-last: center;
+    padding: 5px;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.veggies-text h2 {
+    text-align: justify;
+    font-family: 'Mitr', sans-serif;
+    color: #a00000;
+    padding: 5%;
+    font-size: 1.3rem;    
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #1f1f44;
 }
 
 
 .fruits {
-    height: 20%;
-    width: 20%;
+    height: 97%;
+    width: 50%;
+    padding: 0 auto;
 
-    border: 3px dotted orange;
+    border-left: 5px dotted #a00000;
 
 }
  
+
+
+.fruit-text {
+    color: #e3e3e3;
+    width: 90%;
+    height: 15rem;
+    justify-content: space-between;
+    text-align: center;
+    text-align-last: center;
+    padding: 5px;
+    font-family: 'Nunito', sans-serif;
+    
+
+}
+
+
+.fruit-text h2 {
+    text-align: justify;
+    font-family: 'Mitr', sans-serif;
+    color: #a00000;
+    padding: 5%;
+    font-size: 1.3rem;    
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #1f1f44;
+}
+
+
+.fruit-img {
+
+    border-radius: 99px;
+    height: 15rem;
+    width: 97%;
+    padding: 5px;
+
+}
+
+
+
+.bottom {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background: url(img/cookies.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    border-radius: 75px;
+    margin: 3%;
+    padding: 10px;
+    justify-content: center;
+    height: 17rem;
+    width: 90%;
+     
+ border: 4px dashed hotpink;
+ }
+ 
+ 
+ .cookies-text h2 {
+    text-align: justify;
+    font-family: 'Mitr', sans-serif;
+    color: #a00000;
+    padding: 5%;
+    font-size: 1.3rem;    
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #1f1f44;
+}
+
+
+
+ .cookies-img {
+ 
+     border-radius: 99px;
+     height: 15rem;
+     width: 45%;
+     padding: 5px;
+ 
+ }
+ 
+ .cookies-text {
+     color: #e3e3e3;
+ 
+     width: 45%;
+     height: 15rem;
+     justify-content: space-between;
+     text-align: justify;
+     text-align-last: center;
+     padding: 5px;
+     font-family: 'Nunito', sans-serif;
+ 
+ }
  
