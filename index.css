@@ -275,7 +275,10 @@ nav a {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    background: #6d748c;
+    background: url(img/cookies.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
     border-radius: 75px;
     margin: 3%;
     padding: 10px;
@@ -283,7 +286,7 @@ nav a {
     height: 17rem;
     width: 90%;
      
- 
+ border: 4px dashed hotpink;
  }
  
  
