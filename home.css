@@ -34,7 +34,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    /* margin: 0 auto; */
 }
 ol, ul {
 	list-style: none;
@@ -63,6 +64,7 @@ header {
 
     background-color: #6d748c;
     height: 9rem;
+    width: auto;
     justify-content: space-evenly;
     align-items: center;
     padding: 7px;
@@ -112,27 +114,40 @@ nav a {
 .first {
    display: flex;
    flex-wrap: wrap;
-    
+   flex-direction: column;
+
+   margin: 3%;
+   padding: 10px;
    justify-content: center;
-   align-items: center;
    height: 17rem;
-   width: 17rem;
+   width: 90%;;
     
 
-   border: 3px solid blueviolet;
+   border: 3px solid plum;
 }
 
 
-.first .salmon {
+.salmon-img {
+
     border-radius: 20px;
-    height: 17rem;
-    width: auto;
+    height: 15rem;
+    width: 45%;
+    padding: 5px;
 
     border: 4px dotted lightseagreen
 }
 
-.first p {
+ p {
     color: #6d748c;
-    justify-content: center;
-    text-align: center;
+
+    width: 29%;
+    height: auto;
+
+    justify-content: space-around;
+    text-align: justify;
+
+    padding: 5px;
+    font-family: 'Nunito', sans-serif;
+
+    border: 2px dashed darkturquoise;
 }
