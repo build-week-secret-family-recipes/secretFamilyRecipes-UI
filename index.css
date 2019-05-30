@@ -188,23 +188,86 @@ nav a {
 }
 
 .veg {
-    height: 20%;
-    width: 20%;
+    height: auto;
+    width: auto;
+    padding: 5px;
 
     border: 3px dotted lightgreen;
 }
 
 .veggies-img {
-    
+
+    border-radius: 99px;
+    height: 15rem;
+    width: 45%;
+    padding: 5px;
+
+}
+.veggies-text {
+    color: #e3e3e3;
+
+    width: 45%;
+    height: 15rem;
+    justify-content: space-between;
+    text-align: justify;
+    text-align-last: center;
+    padding: 5px;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.veggies-text h2 {
+    text-align: justify;
+    font-family: 'Mitr', sans-serif;
+    color: #a00000;
+    padding: 5%;
+    font-size: 1.3rem;    
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #1f1f44;
 }
 
 
 .fruits {
-    height: 20%;
-    width: 20%;
+    height: auto;
+    width: auto;
+    padding: 5px;
 
     border: 3px dotted orange;
 
 }
  
  
+.fruit-img {
+
+    border-radius: 99px;
+    height: 15rem;
+    width: 45%;
+    padding: 5px;
+
+}
+
+.fruit-text {
+    color: #e3e3e3;
+
+    width: 45%;
+    height: 15rem;
+    justify-content: space-between;
+    text-align: justify;
+    text-align-last: center;
+    padding: 5px;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+
+.fruit-text h2 {
+    text-align: justify;
+    font-family: 'Mitr', sans-serif;
+    color: #a00000;
+    padding: 5%;
+    font-size: 1.3rem;    
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #1f1f44;
+}
