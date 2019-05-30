@@ -158,3 +158,12 @@ nav a {
     text-decoration-style: wavy;
     text-decoration-color: #1f1f44;
 }
+
+
+.blank {
+ border-top: 3px double #1f1f44;
+ border-bottom: 3px double #1f1f44;
+}
+
+
+
