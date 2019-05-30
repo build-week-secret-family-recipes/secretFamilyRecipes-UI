@@ -1,0 +1,33 @@
+
+/* font-family: 'Mitr', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Varela Round', sans-serif;
+ */
+
+
+ 
+
+
+.home {
+    height: 100%;
+}
+
+header {
+    display: flex;
+    background-color: slategray;
+    height: 9rem;
+    justify-content: center;
+
+    border: 2px dashed teal;    
+}
+
+
+h1 {
+    display: flex;
+    font-family: 'Mitr', sans-serif;
+    justify-content: center;
+    color: pink;
+    font-size: 3rem;
+
+    border: 2px dotted yellow;
+}
