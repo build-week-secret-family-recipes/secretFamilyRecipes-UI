@@ -60,6 +60,7 @@ table {
 header {
     display: flex;
     flex-direction: column;
+
     background-color: #6d748c;
     height: 9rem;
     justify-content: space-evenly;
@@ -107,3 +108,31 @@ nav a {
 }
 
 
+
+.first {
+   display: flex;
+   flex-wrap: wrap;
+    
+   justify-content: center;
+   align-items: center;
+   height: 17rem;
+   width: 17rem;
+    
+
+   border: 3px solid blueviolet;
+}
+
+
+.first .salmon {
+    border-radius: 20px;
+    height: 17rem;
+    width: auto;
+
+    border: 4px dotted lightseagreen
+}
+
+.first p {
+    color: #6d748c;
+    justify-content: center;
+    text-align: center;
+}
