@@ -64,9 +64,9 @@ header {
     height: 9rem;
     justify-content: space-evenly;
     align-items: center;
+    padding: 7px;
 
-
-    border: 3px dashed orchid;    
+    border: 3px dashed springgreen;    
 }
 
 
@@ -77,12 +77,12 @@ header {
 h1 {
     display: flex;
     height: auto;
-
+    padding: 5px;
     font-family: 'Cherry Swash', cursive;
     color: #e3e3e3;
-    font-size: 3rem;
+    font-size: 4rem;
 
-    border: 1px dotted yellow;
+    border: 3px dotted cadetblue;
 }
 
 
@@ -94,14 +94,14 @@ nav {
     width: 40%;
     height: auto;
 
-    border: 2px double pink;
+    border: 2px double #1f1f44;
 
 }
 
 nav a {
     color: #a00000;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-family: 'Cherry Swash', cursive;
 
 }
