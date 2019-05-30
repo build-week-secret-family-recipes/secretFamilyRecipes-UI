@@ -122,6 +122,7 @@ nav a {
    height: 17rem;
    width: 90%;
     
+   border: 1px solid #1f1f44;
 
 }
 
@@ -161,8 +162,8 @@ nav a {
 
 
 .blank {
- border-top: 3px double #6d748c;
- border-bottom: 3px double #6d748c;
+ border-top: 3px double #a00000;
+ border-bottom: 3px double #a00000;
 }
 
 
@@ -179,7 +180,7 @@ nav a {
    height: 31rem;
    width: 90%;
      
- 
+ border: 1px solid #1f1f44;
 }
 
 .veg {
@@ -274,54 +275,37 @@ nav a {
 .bottom {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
     background: url(img/cookies.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-
+    border: 1px solid #6d748c;
     border-radius: 75px;
     margin: 3%;
     padding: 10px;
     justify-content: center;
-    height: 17rem;
+    height: 7rem;
     width: 90%;
      
- border: 4px dashed hotpink;
+    
  }
  
  
  .cookies-text h2 {
-    text-align: justify;
-    font-family: 'Mitr', sans-serif;
+     height: auto;
+     width: 21rem;
+    text-align: center;
+    font-family: 'Cherry Swash', cursive;
     color: #a00000;
-    padding: 5%;
-    font-size: 1.3rem;    
+    padding: 10%;
+    font-size: 1.9rem;    
     text-decoration-line: underline;
     text-decoration-style: wavy;
     text-decoration-color: #1f1f44;
+    background-image: radial-gradient(#e3e3e3, #6d748c, #1f1f44);
+    border-radius: 49%;
 }
 
 
+ 
 
- .cookies-img {
- 
-     border-radius: 99px;
-     height: 15rem;
-     width: 45%;
-     padding: 5px;
- 
- }
- 
- .cookies-text {
-     color: #e3e3e3;
- 
-     width: 45%;
-     height: 15rem;
-     justify-content: space-between;
-     text-align: justify;
-     text-align-last: center;
-     padding: 5px;
-     font-family: 'Nunito', sans-serif;
- 
- }
  
