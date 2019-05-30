@@ -120,10 +120,9 @@ nav a {
    padding: 10px;
    justify-content: center;
    height: 17rem;
-   width: 90%;;
+   width: 90%;
     
 
-   border: 7px dotted lightseagreen;
 }
 
 
@@ -170,46 +169,42 @@ nav a {
 
 
 .mid {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    background: #6d748c;
-    border-radius: 75px;
-    margin: 3%;
-    padding: 10px;
-
-    justify-content: center;
-
-    height: 25rem;
-    width: 90%;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   background: #6d748c;
+   border-radius: 75px;
+   margin: 3%;
+   padding: 15px;
+   height: 31rem;
+   width: 90%;
      
  
-    border: 7px dashed deeppink;
 }
 
 .veg {
-    height: auto;
-    width: auto;
-    padding: 5px;
+    height: 97%;
+    width: 50%;
+    padding: 0 auto;
 
-    border: 3px dotted lightgreen;
+    border-right: 5px dotted #1f1f44;
 }
 
 .veggies-img {
 
     border-radius: 99px;
     height: 15rem;
-    width: 45%;
+    width: 97%;
     padding: 5px;
 
 }
 .veggies-text {
     color: #e3e3e3;
 
-    width: 45%;
+    width: 90%;
     height: 15rem;
     justify-content: space-between;
-    text-align: justify;
+    text-align: center;
     text-align-last: center;
     padding: 5px;
     font-family: 'Nunito', sans-serif;
@@ -229,34 +224,26 @@ nav a {
 
 
 .fruits {
-    height: auto;
-    width: auto;
-    padding: 5px;
+    height: 97%;
+    width: 50%;
+    padding: 0 auto;
 
-    border: 3px dotted orange;
+    border-left: 5px dotted #a00000;
 
 }
  
- 
-.fruit-img {
 
-    border-radius: 99px;
-    height: 15rem;
-    width: 45%;
-    padding: 5px;
-
-}
 
 .fruit-text {
     color: #e3e3e3;
-
-    width: 45%;
+    width: 90%;
     height: 15rem;
     justify-content: space-between;
-    text-align: justify;
+    text-align: center;
     text-align-last: center;
     padding: 5px;
     font-family: 'Nunito', sans-serif;
+    
 
 }
 
@@ -270,4 +257,14 @@ nav a {
     text-decoration-line: underline;
     text-decoration-style: wavy;
     text-decoration-color: #1f1f44;
+}
+
+
+.fruit-img {
+
+    border-radius: 99px;
+    height: 15rem;
+    width: 97%;
+    padding: 5px;
+
 }
