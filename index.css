@@ -27,7 +27,7 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
@@ -263,6 +263,9 @@ nav {
  border: 1px solid #1f1f44;
 }
 
+
+
+
 .veg {
     height: 97%;
     width: 50%;
@@ -349,6 +352,53 @@ nav {
     padding: 5px;
 
 }
+
+
+
+@media (max-width: 600px) {
+
+    .mid {
+        width: 25rem;
+        height: 21rem;
+        border: 2px solid #a00000;
+        flex-wrap: nowrap;
+        /* align-items: center; */
+
+    }
+
+   .mid .fruits {
+        border-left: none;
+        align-items: center;
+
+    }
+
+
+    .fruit-text h2 {
+        font-size: 1.4rem;
+        width: 13rem;
+     }
+ 
+     .fruit-text  p{
+         font-size: 0.8rem;
+         width: 19rem;
+     }
+
+    .fruit-img {
+        height: 10rem;
+        width: 17rem;
+    }
+
+    .veg {
+       display: none;
+    }
+}
+
+
+
+
+
+
+
 
 
 
