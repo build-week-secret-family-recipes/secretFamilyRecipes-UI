@@ -8,6 +8,12 @@ font-family: 'Cherry Swash', cursive; */
    License: none (public domain)
 */
 
+/* @media(max-width: 600px) {
+
+} */
+
+
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -60,8 +66,6 @@ table {
 
 
 
-
-
 header {
     display: flex;
     flex-direction: column;
@@ -77,10 +81,6 @@ header {
 }
 
 
-
-
-
-
 h1 {
     display: flex;
     height: auto;
@@ -91,24 +91,54 @@ h1 {
 
 }
 
-
-
 nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     width: 40%;
     height: auto;
-
-
-
 }
 
-nav a {
+.nav a {
     color: #a00000;
     text-decoration: none;
     font-size: 1.1rem;
     font-family: 'Cherry Swash', cursive;
+}
+
+
+@media (max-width: 600px) {
+    body {
+        align-content: center;
+        justify-content: center;
+    }
+
+    header {
+        width: auto;
+        height: auto;
+
+        border: 7px double #1f1f44;
+    }
+
+    h1 {
+        font-size: 2.3rem;
+        width: auto;
+        text-decoration: underline;
+        text-decoration-style: double;
+        text-decoration-color: #a00000;
+    }
+
+    nav  {
+        width: 100%;
+        height: auto;
+    }
+
+
+    nav a {
+        justify-content: space-evenly;
+        width: 7rem;
+        font-size: 0.9rem;
+    }
 
 }
 
@@ -164,12 +194,57 @@ nav a {
     text-decoration-color: #1f1f44;
 }
 
+@media (max-width: 600px) {
+
+    .first {
+        width: 27rem;
+        height: 20rem;
+        border: 2px solid #a00000;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .salmon-img {
+        height: 9rem;
+        width: 15rem;
+
+    }
+
+    .salmon-text h2 {
+       font-size: 1.4rem;
+    }
+
+    .salmon-text p {
+        font-size: 0.8rem;
+    }
+
+
+
+
+}
+
+
+
+
 
 .blank {
  border-top: 3px double #a00000;
  background: #1f1f44;
  border-bottom: 3px double #a00000;
 }
+
+@media (max-width: 600px) {
+    .blank {
+        /* padding: 0.3rem; */
+        border-top: 3px dashed #6d748c;
+        border-bottom: 3px dashed #6d748c;
+        background: none;
+        
+    }
+
+}
+
+
 
 
 
