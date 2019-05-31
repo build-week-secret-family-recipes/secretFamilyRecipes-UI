@@ -8,7 +8,7 @@ font-family: 'Cherry Swash', cursive; */
    License: none (public domain)
 */
 
-/* @media(max-width: 500px) {
+/* @media(max-width: 600px) {
 
 } */
 
@@ -64,15 +64,6 @@ table {
 }
 
 
-/* 
-@media (max-width: 500px) {
-   body {
-    
-   display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-}
-} */
 
 
 header {
@@ -106,7 +97,6 @@ nav {
     justify-content: space-around;
     width: 40%;
     height: auto;
-    /* color: #a00000; */
 }
 
 .nav a {
@@ -117,7 +107,7 @@ nav {
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     body {
         align-content: center;
         justify-content: center;
@@ -204,28 +194,28 @@ nav {
     text-decoration-color: #1f1f44;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
+
     .first {
         width: 27rem;
         height: 20rem;
 
-        display: inline-flexbox;
+        flex-wrap: nowrap;
+        align-items: center;
     }
 
     .salmon-img {
         height: 9rem;
-        width: 12rem;
+        width: 15rem;
+
     }
 
     .salmon-text h2 {
-     
-        
-       font-size: 2rem;
+       font-size: 1.4rem;
     }
 
     .salmon-text p {
-        font-size: 10px;
-
+        font-size: 0.8rem;
     }
 
 
@@ -235,7 +225,7 @@ nav {
 
 
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .blank {
         display: none;
     }
