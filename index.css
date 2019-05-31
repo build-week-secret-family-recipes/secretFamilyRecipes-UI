@@ -117,7 +117,7 @@ nav {
         width: auto;
         height: auto;
 
-        border: 7px double #a00000;
+        border: 7px double #1f1f44;
     }
 
     h1 {
@@ -125,7 +125,7 @@ nav {
         width: auto;
         text-decoration: underline;
         text-decoration-style: double;
-        text-decoration-color: #1f1f44;
+        text-decoration-color: #a00000;
     }
 
     nav  {
@@ -225,18 +225,26 @@ nav {
 
 
 
-@media (max-width: 600px) {
-    .blank {
-        display: none;
-    }
 
-}
 
 .blank {
  border-top: 3px double #a00000;
  background: #1f1f44;
  border-bottom: 3px double #a00000;
 }
+
+@media (max-width: 600px) {
+    .blank {
+        /* padding: 0.3rem; */
+        border-top: 3px dashed #6d748c;
+        border-bottom: 3px dashed #6d748c;
+        background: none;
+        
+    }
+
+}
+
+
 
 
 
