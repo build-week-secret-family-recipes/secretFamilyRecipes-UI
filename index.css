@@ -117,7 +117,7 @@ nav {
         width: auto;
         height: auto;
 
-        border: 7px double #1f1f44;
+        border: 7px double #a00000;
     }
 
     h1 {
@@ -125,7 +125,7 @@ nav {
         width: auto;
         text-decoration: underline;
         text-decoration-style: double;
-        text-decoration-color: #a00000;
+        text-decoration-color: #1f1f44;
     }
 
     nav  {
