@@ -64,9 +64,15 @@ table {
 }
 
 
-
-
-
+/* 
+@media (max-width: 500px) {
+   body {
+    
+   display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+} */
 
 
 header {
