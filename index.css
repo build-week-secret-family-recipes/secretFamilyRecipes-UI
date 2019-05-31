@@ -207,6 +207,7 @@ nav {
     .salmon-img {
         height: 9rem;
         width: 15rem;
+        border: 6px double #1f1f44;
 
     }
 
@@ -358,14 +359,15 @@ nav {
 @media (max-width: 600px) {
 
     .mid {
-        width: 25rem;
+        display: none;
+        /* width: 25rem;
         height: 21rem;
         border: 2px solid #a00000;
         flex-wrap: nowrap;
         /* align-items: center; */
 
     }
-
+/* 
    .mid .fruits {
         border-left: none;
         align-items: center;
@@ -390,7 +392,7 @@ nav {
 
     .veg {
        display: none;
-    }
+    } */ 
 }
 
 
@@ -436,6 +438,19 @@ nav {
 }
 
 
- 
+ @media (max-width: 600px) {
+     
+    .bottom {
+        border: 2px solid #a00000;
+        height: auto;
+        width: 28rem;
+
+    }
+
+
+    .cookies-text h2 {
+        text-decoration-color: #e3e3e3;
+    }
+ }
 
  
