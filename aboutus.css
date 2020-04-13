@@ -1,27 +1,89 @@
-/* font-family: 'Mitr', sans-serif;
-font-family: 'Nunito', sans-serif;
-font-family: 'Varela Round', sans-serif;
- */
-
-
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -29,40 +91,165 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
 	display: block;
 }
+
 body {
 	line-height: 1;
+	box-sizing: border-box;
+	max-width: 1200px;
+	margin: 0 auto;
 }
-ol, ul {
+
+ol,
+ul {
 	list-style: none;
 }
-blockquote, q {
+
+blockquote,
+q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-© 2019 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
+header {
+  display: flex;
+  flex-direction: column;
+  border-radius: 55px;
+  background-color: #6d748c;
+  height: 7rem;
+  width: 90%;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 9px;
+  border: 7px dotted #1f1f44;
+  margin: 3%;
+}
+h1 {
+  display: flex;
+  height: auto;
+  padding: 5px;
+  font-family: 'Cherry Swash', cursive;
+  color: #e3e3e3;
+  font-size: 4rem;
+}
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 40%;
+  height: auto;
+}
+.nav a {
+  color: #a00000;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-family: 'Cherry Swash', cursive;
+}
+@media (max-width: 600px) {
+  body {
+    align-content: center;
+    justify-content: center;
+  }
+  header {
+    width: auto;
+    height: auto;
+    border: 7px double #a00000;
+  }
+  h1 {
+    font-size: 2.3rem;
+    width: auto;
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-decoration-color: #1f1f44;
+  }
+  nav  {
+    width: 100%;
+    height: auto;
+  }
+  nav a {
+    justify-content: space-evenly;
+    width: 7rem;
+    font-size: 0.9rem;
+  }
+}
 
+.aboutUs {
+  width: 75%;
+  margin: auto;
+}
+
+.aboutUs img {
+	height: 12rem;
+}
+
+.aboutUs h2 {
+  font-family: "Mitr", sans-serif;
+  font-size: 1.3rem;
+  margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+.cameron,
+.marious,
+.pat,
+.rebecca,
+.rem,
+.yuka {
+	display: flex;
+}
+
+.marious,
+.rebecca,
+.yuka {
+	flex-direction: row-reverse;
+	background-color: #6d748c;
+	color: #e3e3e3;
+}
+.cameron,
+.pat,
+.rem {
+	background-color: #e3e3e3;
+	color: #a00000;
+}
+.devText {
+  width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-size: 1rem;
+}
+.devText p {
+  text-align: center;
+  width: 70%;
+  margin-bottom: 1rem;
+}
+.devText a {
+	margin-bottom: 1rem;
+}
  
