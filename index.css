@@ -280,13 +280,17 @@ nav {
   height: 7rem;
   width: auto;
 }
+.cookies-text {
+  width: 24rem;
+}
 .cookies-text h2 {
   height: auto;
-  width: 21rem;
+  width: 20rem;
   text-align: center;
   font-family: 'Cherry Swash', cursive;
   color: #a00000;
-  padding: 10%;
+  padding: 7% 10% 10% 10%;
+  margin-top: 2%;
   font-size: 1.9rem;    
   text-decoration-line: underline;
   text-decoration-style: wavy;
