@@ -5,8 +5,8 @@ mouseEvent.addEventListener("mouseover", function(event) {
     event.target.style.color = "#e3e3e3";
 
     setTimeout(function() {
-        event.target.style.color = "#1f1f44";
-    }, 900);
+      event.target.style.color = "#a00000";
+    }, 500);
 });
 
 
