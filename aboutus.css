@@ -252,4 +252,32 @@ nav {
 .devText a {
 	margin-bottom: 1rem;
 }
- 
+
+.contact {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #e3e3e3;
+	font-weight: bold;
+}
+
+.contact img {
+	width: 25%;
+}
+
+.contact .contactBox {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 75%;
+
+}
+
+.contact .contactBox h2, p {
+  color: #a00000;
+}
+
+.cprt {
+	font-size: .8rem;
+}
