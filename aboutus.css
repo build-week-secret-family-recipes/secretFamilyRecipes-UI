@@ -170,6 +170,7 @@ nav {
   font-size: 1.1rem;
   font-family: 'Cherry Swash', cursive;
 }
+
 @media (max-width: 600px) {
   body {
     align-content: center;
@@ -211,7 +212,7 @@ nav {
   font-family: "Mitr", sans-serif;
   font-size: 1.3rem;
   margin-top: 1rem;
-	margin-bottom: 1rem;
+	margin-bottom: 2rem;
 }
 
 .cameron,
@@ -253,31 +254,27 @@ nav {
 	margin-bottom: 1rem;
 }
 
-.contact {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-color: #e3e3e3;
-	font-weight: bold;
+/* .contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e3e3e3;
+  font-weight: bold;
 }
 
 .contact img {
-	width: 25%;
+  width: 25%;
 }
 
-.contact .contactBox {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	width: 75%;
-
-}
-
-.contact .contactBox h2, p {
+.contactBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
   color: #a00000;
 }
 
 .cprt {
-	font-size: .8rem;
-}
+  font-size: .8rem;
+} */
